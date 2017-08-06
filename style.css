@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0 auto;
+  background: #fff;
+  text-align: center; }
+
+.border-black {
+  border: 1px #000 solid; }
+
+.border-white {
+  border: 1px #fff solid; }
+
+.hero p, .about-us p, .services-inside p, .what-we-do p, .contact p, .services-inside p, .what-we-do div p, .contact p {
+  line-height: 2; }
+
+/* jumbotron */
+.jumbotron {
+  height: 1070px;
+  background-image: url(https://static.pexels.com/photos/6518/man-person-hands-coffee.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.8;
+  position: relative; }
+
+.hero {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+  .hero h1 {
+    margin-bottom: 54px;
+    font-size: 54px;
+    color: #fff; }
+  .hero p {
+    font-size: 15px;
+    color: #fff; }
+
+/* section about-us */
+.about-us, .services-inside, .what-we-do, .contact {
+  margin-top: 160px;
+  margin-bottom: 160px;
+  padding-top: 0;
+  border-top: 0;
+  position: relative;
+  padding-bottom: 55px;
+  padding-left: 160px;
+  padding-right: 160px; }
+
+.about-us h1, .services-inside h1, .what-we-do h1, .contact h1 {
+  margin: 0;
+  font-size: 34px;
+  font-weight: bold;
+  padding-bottom: 65px; }
+
+.about-us h1 span, .services-inside h1 span, .what-we-do h1 span, .contact h1 span {
+  display: block;
+  transform: translateY(-50%); }
+
+.about-us h1::before, .services-inside h1::before, .what-we-do h1::before, .contact h1::before {
+  content: "";
+  width: 240px;
+  height: 1px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.about-us h1::after, .services-inside h1::after, .what-we-do h1::after, .contact h1::after {
+  content: "";
+  width: 240px;
+  height: 1px;
+  background: #000;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+/* section services */
+.services {
+  background-image: url(https://images.pexels.com/photos/7715/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  background-size: cover;
+  opacity: 0.8;
+  color: white; }
+
+.services-inside h1::before {
+  background: #fff; }
+
+.services-inside h1::after {
+  background: #fff; }
+
+/* section what-we-do */
+.content {
+  padding: 50px 0px; }
+
+.what-we-do i {
+  font-size: 84px;
+  padding-bottom: 40px; }
+
+.what-we-do h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 34px; }
+
+/* section gallery */
+.row {
+  width: 100%;
+  margin-left: 0; }
+
+.gallery h3 {
+  font-size: 25px; }
+
+.gallery img {
+  display: block;
+  width: 100%;
+  height: 237px; }
+
+.gallery [col*="col-"] {
+  position: relative;
+  margin: 0; }
+
+.photo {
+  padding: 0;
+  position: relative; }
+
+.layer-left {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  margin: auto;
+  color: #fff; }
+
+/* section contact */
+.contact button {
+  font-size: 16px;
+  margin-top: 40px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-left: 140px;
+  padding-right: 140px;
+  background: #3c3c3c;
+  color: #fff; }
+
+/* section footer */
+.footer {
+  margin: 80px 0; }
+
+.footer h1 {
+  font-size: 14px; }
+
+@media(max-width: 767px) {
+  .jumbotron {
+    height: 650px; }
+
+  .about-us, .services-inside, .what-we-do, .contact, .services, .what-we-do, .gallery, .contact {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px; }
+
+  .contact {
+    margin-bottom: 80px; }
+    .contact button {
+      font-size: 16px;
+      margin-top: 15px;
+      padding: 15px 70px; }
+
+  .about-us h1::before, .services-inside h1::before, .what-we-do h1::before, .contact h1::before, .about-us h1::after, .services-inside h1::after, .what-we-do h1::after, .contact h1::after, .services-inside h1::before, .services-inside h1::after, .what-we-do h1::before, .what-we-do h1::after, .contact h1::before, .contact h1::after {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px; }
+
+  .services-inside {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 0;
+    border-top: 0;
+    position: relative;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px; }
+
+  .what-we-do {
+    margin-bottom: 40px; }
+
+  .footer {
+    margin: 30px 0; } }
+
+/*# sourceMappingURL=style.css.map */
